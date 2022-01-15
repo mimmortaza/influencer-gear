@@ -2,6 +2,10 @@ body,h1{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+h1,a:hover{
+    color: indigo;
+}
+
 /* header start */
 .start-Journey{
     margin-right: 150px;
@@ -13,9 +17,11 @@ body,h1{
 }
 /* header end */
  /* main part start */
+
 .influencer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 100px;
     }
 
