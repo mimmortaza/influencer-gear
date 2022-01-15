@@ -1,21 +1,81 @@
-body{
+body,h1{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* header start */
+.start-Journey{
+    margin-right: 150px;
+    }
+
+.influ-pro{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/* header end */
+ /* main part start */
 .influencer{
     display: flex;
-    
+    align-items: center;
+    margin: 100px;
     }
+
+.link-button{
+    text-decoration: none;
+    background-color: rgb(247, 59, 90);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    }
+.arrow{
+    margin-left: 15px;
+    font-weight: bolder;
+}
+  
+
+  /* main part end */
     /* Collections part start */
 .collections{
+    
     display: grid;
+   grid-gap: 50px;
     grid-template-columns: repeat(3,1fr);
+    margin-right: 100px;
+    margin-left: 20px; 
+  
+    
 
 }
+.collection{ 
+    padding: 15px;
+    
+    margin-bottom: 20px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 40px grey
+}
+.Popular{
+    text-align: center;
+    margin-bottom: 50px;
 
+}
+.star{
+    display: flex;
+    color: goldenrod;
+}
+.star-i{
+    margin-top: 15px;
+    margin-right:10px ;
+}
+.see-more{
+    color: rgb(235, 47, 78);
+    text-align: end;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
     /* Collections part end */
 
-    /* footer */
+    /* footer start */
 .Influencer-footer{
     text-align: center;
     color: white;
@@ -23,3 +83,11 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.font-i{
+    font-weight: 900;
+    padding: 5px;
+    margin-right: 8px;
+    background-color: gray;
+    border-radius: 10px;
+}
+/* footer end */
