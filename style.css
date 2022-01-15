@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.influencer{
+    display: flex;
+    
+    }
+    /* Collections part start */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+    /* Collections part end */
+
+    /* footer */
+.Influencer-footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 1, 36);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
